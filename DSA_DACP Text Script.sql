@@ -6,7 +6,7 @@ Create Database DSA_DSCP_DB
 --- I imported the Csv. File (KMS Sql Case Study) and introduced the table---
 Select * from [dbo].[KMS Sql Case Study]
 
---- For this SQL project i will be answering 10 question from this data set----
+--- For this SQL project i will be answering 11 question from this data set----
 
 --- 1. Which product category had the highest sales?---
 
