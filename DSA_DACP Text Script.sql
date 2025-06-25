@@ -44,6 +44,17 @@ Order_ID, Order_Date, Order_Priority, Order_Quantity, Sales, Discount, Shipping_
 From [dbo].[KMS Sql Case Study]
 Order by Sales asc
 
+--- Answer to Question 4: For KMS to increase the revenue from the bottom 10 customers, they should do the following recommendations
+---1. Improve engagement and communication by reaching out directly to understand their purchasing patterns and constraints. 
+----  For those with “Critical” priority: offer dedicated account management or priority handling services to reinforce the relationship.
+---2.Offer incentives for larger orders because from the query the orders were small and they can do this by Design volume-based discounts or bundling offers to encourage higher order quantities.
+--- also, introduce loyalty points for repeat purchases.
+----3. Clarify order priority and needs for customers with “Not Specified” or “Low” priority by Following up to understand their urgency and how your services can be made more valuable.
+----Consider prompting for priority selection during ordering to tailor service.
+----4.Use email campaigns or targeted ads to highlight relevant offerings.
+----5. Set KPIs such as increase in average order size, frequency of orders, and customer satisfaction scores.
+----Track changes over the next 3–6 months to evaluate the impact of these strategies.
+
 ------5. KMS incurred the most shipping cost using which shipping method?
 
 SELECT Top 1 Ship_Mode, SUM(Shipping_Cost) AS TotalShippingCost
@@ -119,3 +130,11 @@ GROUP BY
     Order_Priority, Ship_Mode, Product_Container
 ORDER BY 
     Order_Priority, TotalShippingCost DESC;
+
+----- Answer to Question 11: Based on the analysis in SQL Server, the company did not appropriately align shipping costs with order priorities. 
+--The Delivery Truck while considered economical, incurred the highest total shipping cost and was used across all 
+--priority levels, including Critical, which undermines timely delivery. Furthermore, all shipments were packed 
+--in Jumbo packaging, regardless of urgency, amplifying the cost. This suggests a lack of strategic alignment between 
+--shipping method, order priority, and packaging choices. The company should consider refining its shipping policy to:
+--Match faster shipping methods with high-priority orders, use economical options for low-priority orders,re-evaluate packaging 
+--efficiency.
