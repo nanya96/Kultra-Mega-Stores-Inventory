@@ -52,14 +52,14 @@ Order by Sales asc
 
 ----- For KMS to increase the revenue from the bottom 10 customers, they should do the following recommendations
 ---1. Improve Engagement and Communication by Reaching out directly to understand their purchasing patterns and constraints. 
-----For those with ìCriticalî priority: offer dedicated account management or priority handling services to reinforce the relationship.
+----For those with ‚ÄúCritical‚Äù priority: offer dedicated account management or priority handling services to reinforce the relationship.
 ---2.Offer Incentives for Larger Orders because from the query the orders were small and they can do this by Design volume-based discounts or bundling offers to encourage higher order quantities.
 --- also, introduce loyalty points for repeat purchases.
-----3. Clarify Order Priority & Needs For customers with ìNot Specifiedî or ìLowî priority by Following up to understand their urgency and how your services can be made more valuable.
+----3. Clarify Order Priority & Needs For customers with ‚ÄúNot Specified‚Äù or ‚ÄúLow‚Äù priority by Following up to understand their urgency and how your services can be made more valuable.
 ----Consider prompting for priority selection during ordering to tailor service.
 ----4.Use email campaigns or targeted ads to highlight relevant offerings.
 ----5. Set KPIs such as increase in average order size, frequency of orders, and customer satisfaction scores.
-----Track changes over the next 3ñ6 months to evaluate the impact of these strategies.
+----Track changes over the next 3‚Äì6 months to evaluate the impact of these strategies.
 
 ------5. KMS incurred the most shipping cost using which shipping method?
 Select * from [dbo].[KMS Sql Case Study]
@@ -89,7 +89,7 @@ Group By Customer_Name, Customer_Segment
 Order By HighestSales Desc;
 
 
--------8. Which Corporate Customer placed the most number of orders in 2009 ñ 2012?
+-------8. Which Corporate Customer placed the most number of orders in 2009 ‚Äì 2012?
 
 Select Top 1 Customer_Name, Customer_Segment, Order_Date, Count(distinct Order_Quantity) as TotalOrders
 From [dbo].[KMS Sql Case Study]
