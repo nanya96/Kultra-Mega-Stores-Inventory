@@ -1,3 +1,6 @@
+---- Created by Ikeakor Rejoice Ifunanya----
+---- Created 
+
 Create Database DSA_DSCP_DB
 
 Select * from [dbo].[KMS Sql Case Study]
