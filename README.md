@@ -34,7 +34,7 @@ To extract relevant insights and findings into revenue patterns, and to optimize
 Data importing, Database management, SQL querying, Data analysis and reporting.
 
 ## Files
-**`DSA_DACP Text Script.sql`:** This SQL file is where all the querying happen to gain an understanding and insights from the database, and answer the questions asked. <br>
+**`DSA_DACP Text Script.sql`:** This SQL file is where all the querying happened to gain an understanding and insights from the database, and answer the questions asked. <br>
 **`KMS Sql Case Study.csv`:**  This csv.file contains order data from 2009 to 2012 which was imported in the new database created in the Sql server. <br>
 
 ## Acknowledgement
