@@ -1,6 +1,6 @@
 # Kultra-Mega-Stores-Inventory Analysis
 
-## Description 
+## Project Overview 
 This project is focused on analyzing an order data at Kultra Mega Stores (KMS) which specialises in office supplies and furniture. The Dataset is a csv.file containing order data from 2009 to 2012. I am doing this to gain an understanding of the customer base and to answer the questions listed below:
 
 ~~~~~
