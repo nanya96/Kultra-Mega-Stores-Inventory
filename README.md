@@ -58,11 +58,17 @@ appropriately spent shipping costs based on the Order Priority? Explain your ans
 
 
 ## Conclusion
-Based on the analysis in SQL Server, the company did not appropriately align shipping costs with order priorities. The Delivery Truck while considered economical, incurred the highest total shipping cost and was used across all priority levels, including Critical, which undermines timely delivery. Furthermore, all shipments were packed in Jumbo packaging, regardless of urgency, amplifying the cost. This suggests a lack of strategic alignment between shipping method, order priority, and packaging choices. 
-The company should consider refining its shipping policy to; Match faster shipping methods with high-priority orders, use economical options for low-priority orders,re-evaluate packaging efficiency.
+Based on the analysis in SQL Server, the company did not appropriately align shipping costs with order priorities. The Delivery Truck while considered economical, incurred the highest total shipping cost and was used across all priority levels, including "Critical", which undermines timely delivery. Furthermore, all shipments for the truck delivery were packed in Jumbo packaging, regardless of urgency, amplifying the cost. This suggests a lack of strategic alignment between shipping method, order priority, and packaging choices. 
 
 
 ## Recommendation
+1. The company should consider refining its shipping policy to; Match faster shipping methods with high-priority orders, use         economical options for low-priority orders,re-evaluate packaging efficiency.
+2. Improve engagement and communication by reaching out directly to understand their purchasing patterns and constraints. 
+   For those with “Critical” priority: offer dedicated account management or priority handling services to reinforce the             relationship.
+3. Offer incentives for larger orders because from the query the orders were small and they can do this by design volume-based       discounts or bundling offers to encourage higher order quantities. Also, introduce loyalty points for repeat purchases.
+4. Clarify order priority and needs for customers with “Not Specified” or “Low” priority by Following up to understand their         urgency and how your services can be made more valuable. Also, They should consider prompting for priority selection during       ordering to tailor service.
+5. Use email campaigns or targeted ads to highlight relevant offerings.
+6. Set KPIs such as increase in average order size, frequency of orders, and customer satisfaction scores. Track changes over the    next 3–6 months to evaluate the impact of these strategies.
 
 ## Files
 **`DSA_DACP Text Script.sql`:** This SQL file is where all the querying happened to gain an understanding and insights from the database, and answer the questions asked. <br>
