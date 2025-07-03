@@ -57,6 +57,13 @@ appropriately spent shipping costs based on the Order Priority? Explain your ans
 - Reporting.
 
 
+## Conclusion
+Based on the analysis in SQL Server, the company did not appropriately align shipping costs with order priorities. The Delivery Truck while considered economical, incurred the highest total shipping cost and was used across all priority levels, including Critical, which undermines timely delivery. Furthermore, all shipments were packed in Jumbo packaging, regardless of urgency, amplifying the cost. This suggests a lack of strategic alignment between shipping method, order priority, and packaging choices. 
+The company should consider refining its shipping policy to; Match faster shipping methods with high-priority orders, use economical options for low-priority orders,re-evaluate packaging efficiency.
+
+
+## Recommendation
+
 ## Files
 **`DSA_DACP Text Script.sql`:** This SQL file is where all the querying happened to gain an understanding and insights from the database, and answer the questions asked. <br>
 **`KMS Sql Case Study.csv`:**  This csv.file contains order data from 2009 to 2012 which was imported in the new database created in the Sql server. <br>
