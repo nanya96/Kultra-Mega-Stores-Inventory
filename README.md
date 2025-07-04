@@ -62,7 +62,7 @@ Based on the analysis in SQL Server, the company did not appropriately align shi
 
 
 ## Recommendation
-The company should consider
+The company should consider:
  1. Refining its shipping policy to; Match faster shipping methods with high-priority orders, use economical options for low-         priority orders,re-evaluate packaging efficiency.
  2. Improve engagement and communication by reaching out directly to understand their purchasing patterns and constraints. 
    For those with “Critical” priority: offer dedicated account management or priority handling services to reinforce the             relationship.
