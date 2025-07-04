@@ -58,7 +58,7 @@ appropriately spent shipping costs based on the Order Priority? Explain your ans
 
 
 ## Conclusion
-Based on the analysis in SQL Server, the company did not appropriately align shipping costs with order priorities. The Delivery Truck while considered economical, incurred the highest total shipping cost and was used across all priority levels, including "Critical", which undermines timely delivery. Furthermore, all shipments for the truck delivery were packed in Jumbo packaging, regardless of urgency, amplifying the cost. This suggests a lack of strategic alignment between shipping method, order priority, and packaging choices. Also was observed that the revenue is low for the bottom 10 consumers with very low shipping cost and express air shipping method which is not good for the company's profit.  
+Based on the analysis in SQL Server, the company did not appropriately align shipping costs with order priorities. The Delivery Truck while considered economical, incurred the highest total shipping cost and was used across all priority levels, including "Critical", which undermines timely delivery. Furthermore, all shipments for the truck delivery were packed in Jumbo packaging, regardless of urgency, amplifying the cost. This suggests a lack of strategic alignment between shipping method, order priority, and packaging choices. Also, it was observed that the revenue is low for the bottom 10 consumers with very low shipping cost and express air shipping method which is not good for the company's profit.  
 
 
 ## Recommendation
